@@ -1,1 +1,15 @@
 
+pipline{
+    agent any{
+        stages{
+            stage("SCM checkout"){
+                steps{
+                  sh(""Hello World..)
+                  sh("ansible -version")
+                }
+            }
+            
+            
+        }
+    }
+}
